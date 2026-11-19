@@ -1,0 +1,71 @@
+:root {
+    --background-color: #FBFBF7;
+    --text-color: #1A1A15;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+header .logo span {
+    color: #9837F5;
+}
+header .menu {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+header .menu svg {
+    width: 20px;
+    height: 20px;
+}
+main .hero  {
+    margin: 50px;
+    padding: 20px;
+    font-family: Outfit, sans-serif;
+}
+main .hero span {
+    color: #9837F5;
+}
+main .hero h1 {
+    font-size: 96px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+main .hero p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+main .verify {
+    background-color: #363BF5;
+    color: #FFFFFF;
+}
+main .how-it-works {
+    background-color: #EFF536;
+    color: #1A1A15;
+}
